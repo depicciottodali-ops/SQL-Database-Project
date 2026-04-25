@@ -104,7 +104,7 @@ VALUES
 (@FinalEpisodeID, 2, (SELECT CategoryID 
                       FROM dbo.Categories 
                       WHERE CategoryName=N'Writing'), 2,
- N'The dialogue was cheesy and the payoff didn’t match the hype.'),
+ N'The dialogue was cheesy and the payoff didnâ€™t match the hype.'),
 (@FinalEpisodeID, 3, (SELECT CategoryID 
                       FROM dbo.Categories 
                       WHERE CategoryName=N'Plot'), 2,
